@@ -1,0 +1,104 @@
+/* Reset some default styles */
+body, h1, h2, h3, ul, li, p, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .feature {
+    margin-bottom: 30px;
+  }
+  
+  .pricing-option {
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .pricing-option h3 {
+    margin-bottom: 10px;
+  }
+  
+  .pricing-option p {
+    font-weight: bold;
+  }
+  
+  .pricing-option ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  #contact form {
+    margin-top: 20px;
+  }
+  
+  #contact input,
+  #contact textarea,
+  #contact button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
